@@ -1,0 +1,11 @@
+a=int(input())
+i=2
+while(i<a):
+  if(a==2):
+    print("yes")
+  elif(a%i==0):
+    print("no")
+  else:
+    print("yes")
+  break
+  i=i+1

@@ -7,5 +7,5 @@ p=e.split()
 i=1
 c=0
 for i in range(K):
-  c=c+p[i]
+  c=c+int(p[i])
 print(c)

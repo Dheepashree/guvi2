@@ -1,5 +1,5 @@
 a=int(input())
-s=0
+sum=0
 while(a!=0):
   r=a%10
   sum=(sum*10)+r

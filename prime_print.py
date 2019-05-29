@@ -14,9 +14,9 @@ for z in range(x+1,y):
       else:
         i=i+1
         continue
-      if(count==1):
-        continue
-      else:
-        print(z,end=" ")
+    if(count==1):
+      continue
+    else:
+      print(z,end=" ")
   
   

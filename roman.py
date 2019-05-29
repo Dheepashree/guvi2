@@ -1,4 +1,4 @@
-a-input()
+a=input()
 count=0
 for i in a:
   if(i=='I'):

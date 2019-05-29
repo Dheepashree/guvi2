@@ -5,7 +5,7 @@ for z in range(x+1,y):
   i=2
   count=0
   if(z==2):
-    print(z)
+    print(z,end=" ")
   else:
     while(i<z):
       if(z%i==0):
@@ -17,6 +17,6 @@ for z in range(x+1,y):
       if(count==1):
         continue
       else:
-        print(z)
+        print(z,end=" ")
   
   

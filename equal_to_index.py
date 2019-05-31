@@ -2,7 +2,7 @@ a=int(input())
 b=input().split()
 x=[]
 for i in range(0,a):
-  if(b[i]==i):
+  if(int(b[i])==i):
     x.append(b[i])
 if(x==[]):
   print("-1")

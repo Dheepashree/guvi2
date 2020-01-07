@@ -20,3 +20,4 @@ for i in range(n):
     sub_score=grade_points*credit_points        
     total_score=sub_score+total_score
 cgpa=total_score/total_credit_points
+print(cgpa)
